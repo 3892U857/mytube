@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" id="logo">
+        <h1>MyTube</h1>
+    </header>
+
+    <main>
+        <h2>Dodaj swój film</h2>
+        <input type="file" id="file-input" accept="video/*">
+        <br>
+        <video id="video-player" controls>
+            <source id="video-source" src="" type="video/mp4">
+            Twoja przeglądarka nie wspiera odtwarzania wideo.
+        </video>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MyTube. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
